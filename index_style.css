@@ -1,0 +1,144 @@
+/** GENERAL STYLES*/
+nav ul li{
+    list-style: none;
+}
+
+*{
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/**TOP CONTENT*/
+.parallax_top {
+    margin-top: -16px;
+    background-image: url(Imagenes/Backgrounds/parallax_background.jpg);
+    height: 500px;
+    width: 100%;
+    background-position-y: -30%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    border-bottom: black solid 1px;
+}
+
+.top_menu{
+    float: left;
+    text-align: right;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.top_menu ul
+{
+    width: 100%;
+    font-size: 30px;
+    margin-block-start: 35px;
+    margin-inline-start: -30px;
+}
+
+.top_menu ul li{
+    display: inline-block;
+    height: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.top_menu ul li:hover{
+    background-color: rgb(215,215,215);
+    color: white1;
+}
+
+.top_menu ul li a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.top_content{
+    border: black solid 2px;
+    display: inline-block;
+    margin-top: 120px;
+    text-align: center;
+    padding: 30px;
+}
+
+.top_content p
+{
+    margin-block-start: 15px;
+    margin-block-end: 15px;
+    font-size: 40px;
+}
+
+.top_content img
+{
+    padding-bottom: 0px;
+}
+
+/** BOTTOM CONTENT*/
+
+footer{
+    margin-bottom: 0px;
+    background-color: black;
+    padding: 30px;
+    color: white;
+    clear: both;
+}
+
+.botom_content{
+    text-align: center;
+}
+
+.botom_content ul li {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.botom_content ul li a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+
+/**MID CONTENT*/
+article{
+    width: 100%;
+    font-size: 25px;
+    float: left;
+    background-image: url(Imagenes/Backgrounds/Foto1.jpg);
+}
+
+article p{
+    margin-left: 40px ;
+    margin-right: 40px ;
+    width: 1000px;
+    margin-block-start: 30px;
+    margin-block-end: 30px;
+    line-height: 40px;
+    word-spacing: 8px;
+}
+
+.mid_content{
+    margin-top: 60px;
+}
+
+.Profile_Picture img{
+    margin-right: 200px;
+    float: right;
+    height: 545px;
+    width: 400px;
+    margin-block-start: 30px;
+}
+
+.Profile_Picture{
+    margin-top: 42px;
+}
