@@ -15,9 +15,7 @@ body {
 /**TOP CONTENT*/
 .parallax_top {
     background-image: url(parallax_background.jpg);
-    height: 500px;
     width: 100%;
-    background-position-y: -30%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     text-align: center;
@@ -67,6 +65,7 @@ body {
     text-align: center;
     padding: 30px;
     margin-top: 180px;
+    margin-bottom: 180px;
 }
 
 .top_content p
@@ -119,7 +118,7 @@ article{
 article p{
     margin-left: 40px ;
     margin-right: 40px ;
-    width: 1000px;
+    width: 90%;
     margin-block-start: 30px;
     margin-block-end: 30px;
     line-height: 40px;
@@ -131,13 +130,14 @@ article p{
 }
 
 .Profile_Picture img{
-    margin-right: 200px;
+    margin-right: 80px;
     float: right;
     height: 545px;
     width: 400px;
-    margin-block-start: 30px;
+    padding-left: 40px;
+    padding-bottom: 10px;
 }
 
 .Profile_Picture{
-    margin-top: 42px;
+    margin-top: 75px;
 }
