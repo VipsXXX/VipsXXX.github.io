@@ -54,6 +54,11 @@ body {
     color: white;
 }
 
+.top_menu ul li.active{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
 .top_menu ul li a{
     color: inherit;
     text-decoration: inherit;
